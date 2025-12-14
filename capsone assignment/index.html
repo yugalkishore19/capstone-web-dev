@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foodie — Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap header-row">
+      <div class="brand">Foodie</div>
+      <nav class="nav">
+        <a href="#categories">Categories</a>
+        <a href="#restaurants">Restaurants</a>
+        <a href="#offers">Offers</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#app">App</a>
+      </nav>
+      <div class="auth">
+        <button class="btn ghost">Login</button>
+        <button class="btn accent">Sign Up</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap hero-row">
+      <div class="hero-left">
+        <h1>Delicious food,<br/>delivered to you</h1>
+        <p class="muted">Order from your favorite restaurants and get your meal delivered fast, fresh, and hot. Discover the best food in your city with Foodie!</p>
+        <div class="actions">
+          <a class="btn accent large" href="#restaurants">Order Now</a>
+        </div>
+        <div class="search-card">
+          <input placeholder="Enter your location" aria-label="location" />
+          <select aria-label="categories">
+            <option>All Categories</option>
+          </select>
+          <button class="btn accent">Search</button>
+        </div>
+      </div>
+      <div class="hero-right">
+        <a class="hero-media" href="#restaurants">
+          <img src="l-intro-1643403830.jpg" alt="Hero dish">
+          <div class="media-overlay">
+            <span class="media-cta">Explore Menu</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="categories" id="categories">
+      <div class="wrap">
+        <h2>Browse by Category</h2>
+        <div class="cats">
+          <a class="cat" href="#restaurants">🍕<span>Pizza</span></a>
+          <a class="cat" href="#restaurants">🍔<span>Burgers</span></a>
+          <a class="cat" href="#restaurants">🍣<span>Sushi</span></a>
+          <a class="cat" href="#restaurants">🥘<span>Indian</span></a>
+          <a class="cat" href="#restaurants">🥡<span>Chinese</span></a>
+          <a class="cat" href="#restaurants">🧁<span>Desserts</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured" id="restaurants">
+      <div class="wrap">
+        <h2>Featured Restaurants</h2>
+        <div class="cards">
+
+          <article class="card">
+            <a href="#">
+              <div class="card-media">
+                <img src="369063.jpg" alt="Pizza Mania">
+                <div class="card-overlay">
+                  <button class="card-btn">View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3>Pizza Mania</h3>
+                <p class="muted tiny">Pizza, Italian</p>
+                <div class="rating">★ 4.3</div>
+              </div>
+            </a>
+          </article>
+
+          <article class="card">
+            <a href="#">
+              <div class="card-media">
+                <img src="front-view-tasty-meat-burger-with-cheese-and-salad-free-photo.jpg" alt="Burger store">
+                <div class="card-overlay">
+                  <button class="card-btn">View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3>Burger store </h3>
+                <p class="muted tiny">Burgers, Fast Food</p>
+                <div class="rating">★ 4</div>
+              </div>
+            </a>
+          </article>
+
+          <article class="card">
+            <a href="#">
+              <div class="card-media">
+                <img src="cookies.jpg" alt="cookies">
+                <div class="card-overlay">
+                  <button class="card-btn">View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3>cookies</h3>
+                <p class="muted tiny">cookies, Japanese</p>
+                <div class="rating">★ 4.7</div>
+              </div>
+            </a>
+          </article>
+
+          <article class="card">
+            <a href="#">
+              <div class="card-media">
+                <img src="spice.png" alt="Spicy">
+                <div class="card-overlay">
+                  <button class="card-btn">View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3>Spice Route</h3>
+                <p class="muted tiny">Indian, Curry</p>
+                <div class="rating">★ 4.5</div>
+              </div>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="promo" id="offers">
+      <div class="wrap">
+        <h2>Promo Offers</h2>
+        <div class="promo-row">
+          <a class="pill" href="#offers">🎉 Get 30% OFF on your first order!</a>
+          <a class="pill" href="#offers">🚚 Free delivery on orders above $20</a>
+          <a class="pill" href="#offers">🍔 Buy 1 Get 1 Free on Burgers every Friday</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="wrap">
+        <h2>What Our Customers Say</h2>
+        <div class="test-row">
+
+          <div class="test" aria-label="testimonial 1">
+            <img src="OIP.webp" alt="User 1" style="width:80px;height:80px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 10px">
+            <div class="stars">★★★★★</div>
+            <p class="quote">"Foodie makes ordering food so easy and quick! The delivery is always on time and the food is hot."</p>
+            <strong>Roman reigns</strong>
+          </div>
+
+          <div class="test" aria-label="testimonial 2">
+            <img src="OIP (1).webp" alt="User 2" style="width:80px;height:80px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 10px">
+            <div class="stars">★★★★★</div>
+            <p class="quote">"Great selection of restaurants and amazing offers. Highly recommend to all food lovers!"</p>
+            <strong>renuka.s</strong>
+          </div>
+
+          <div class="test" aria-label="testimonial 3">
+            <img src="deepanshu.jpg" alt="User 3" style="width:80px;height:80px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 10px">
+            <div class="stars">★★★★★</div>
+            <p class="quote">"The app is super user-friendly and the customer support is fantastic. Love Foodie!"</p>
+            <strong>deepanshu.</strong>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="get-app" id="app">
+      <div class="wrap app-row">
+        <div>
+          <h2>Get the Foodie App</h2>
+          <p class="muted">Order food on the go! Download our app for the best experience and exclusive app-only deals.</p>
+          <div class="stores" style="margin-top:12px">
+            <img src="playstore.png" alt="Google Play" style="height:44px;margin-right:12px">
+            <img src="appstore.png" alt="App Store" style="height:44px">
+          </div>
+        </div>
+        <div class="app-illu">📱</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h4>Cities Served</h4>
+        <ul>
+          <li>New York</li>
+          <li>Los Angeles</li>
+          <li>Chicago</li>
+          <li>mumbai</li>
+          <li>delhi</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p class="muted">Email: support@foodie.com</p>
+        <p class="muted">Phone: +1 234 567 890</p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <div class="social">🌐 🧁 📸</div>
+      </div>
+    </div>
+    <div class="wrap copy">© 2025-2026 Foodie. All rights reserved.</div>
+  </footer>
+</body>
+</html>
